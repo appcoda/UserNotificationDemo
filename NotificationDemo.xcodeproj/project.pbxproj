@@ -12,6 +12,7 @@
 		A611E26C1D61C62400B1D526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A611E26A1D61C62400B1D526 /* Main.storyboard */; };
 		A611E26E1D61C62400B1D526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A611E26D1D61C62400B1D526 /* Assets.xcassets */; };
 		A611E2711D61C62400B1D526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A611E26F1D61C62400B1D526 /* LaunchScreen.storyboard */; };
+		A67E03FD1D6314DB00B5DE9D /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A67E03FC1D6314DB00B5DE9D /* pic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A611E26D1D61C62400B1D526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A611E2701D61C62400B1D526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A611E2721D61C62400B1D526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67E03FC1D6314DB00B5DE9D /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		A611E2651D61C62400B1D526 /* NotificationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A67E03FC1D6314DB00B5DE9D /* pic.jpg */,
 				A611E2661D61C62400B1D526 /* AppDelegate.swift */,
 				A611E2681D61C62400B1D526 /* ViewController.swift */,
 				A611E26A1D61C62400B1D526 /* Main.storyboard */,
@@ -96,7 +99,6 @@
 				TargetAttributes = {
 					A611E2621D61C62400B1D526 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 3S6A6CML9V;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67E03FD1D6314DB00B5DE9D /* pic.jpg in Resources */,
 				A611E2711D61C62400B1D526 /* LaunchScreen.storyboard in Resources */,
 				A611E26E1D61C62400B1D526 /* Assets.xcassets in Resources */,
 				A611E26C1D61C62400B1D526 /* Main.storyboard in Resources */,
@@ -259,10 +262,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3S6A6CML9V;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NotificationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.peterpan.NotificationDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.UserNotificationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,10 +275,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3S6A6CML9V;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NotificationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.peterpan.NotificationDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.UserNotificationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -300,6 +303,7 @@
 				A611E2771D61C62400B1D526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
